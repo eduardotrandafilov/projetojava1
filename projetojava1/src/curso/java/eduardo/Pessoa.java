@@ -11,7 +11,6 @@ public class Pessoa {
 	private int idade;
 	private String cpf;
 	private String endereco;
-
 	private Data  dataNascimento;
 	
 	public Data getDataNascimento() {
