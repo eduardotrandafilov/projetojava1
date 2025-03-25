@@ -10,6 +10,7 @@ public class Pessoa {
 	private String sobrenome;
 	private int idade;
 	private String cpf;
+	private String endereco;
 
 	private Data  dataNascimento;
 	
