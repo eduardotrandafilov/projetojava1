@@ -1,11 +1,21 @@
 package curso.java.eduardo;
 
+import javax.xml.crypto.Data;
+
 public class Pessoa {
 
 	private String name;
 	private String sobrenome;
 	private int idade;
 
+	private Data  dataNascimento;
+	
+	public Data getDataNascimento() {
+		return dataNascimento;
+	}
+	public void setDataNascimento(Data dataNascimento) {
+		this.dataNascimento = dataNascimento;
+	}
 	public int getIdade() {
 		return idade;
 	}
