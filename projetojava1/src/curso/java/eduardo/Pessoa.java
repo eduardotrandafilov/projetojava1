@@ -1,5 +1,7 @@
 package curso.java.eduardo;
 
+import java.util.Date;
+
 import javax.xml.crypto.Data;
 
 public class Pessoa {
@@ -16,6 +18,8 @@ public class Pessoa {
 	public void setDataNascimento(Data dataNascimento) {
 		this.dataNascimento = dataNascimento;
 	}
+	public Date dataCadastro;
+	
 	public int getIdade() {
 		return idade;
 	}
